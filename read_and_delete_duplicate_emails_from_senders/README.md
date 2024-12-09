@@ -9,9 +9,9 @@ Inbox emails will be processed from newest to oldest. An email found with the sa
 2. Click `New Project`
 3. copy-paste code here
 4. name project something like `gmail_scripts`
-5. name file something like `read_and_archive_duplicate_emails_from_senders`
+5. name file something like `read_and_delete_duplicate_emails_from_senders`
 6. update $senderFilter to include the senders for which you would like to handle duplicates
-7. Click `Run` or `Debug` to test locally. Feel free to add log statements. Recommend commenting out thread.markRead() and thread.moveToArchive() while testing.
+7. Click `Run` or `Debug` to test locally. Feel free to add log statements. Recommend setting `DEBUG_MODE=true` to prevent changes to the inbox while testing.
 8. Make sure to grant any necessary permissions to Google App Scripts.
 
 ## Deployment
@@ -22,7 +22,7 @@ Inbox emails will be processed from newest to oldest. An email found with the sa
 
 This is my cron configuration. I attempt to balance frequency with functional need. Make sure to consider [quotas for Google App Scripts](https://developers.google.com/apps-script/guides/services/quotas).
 
-11. For `Choose which function to run`, select `readAndArchiveDuplicateEmailsFromSenders`
+11. For `Choose which function to run`, select `readAndDeleteDuplicateEmailsFromSenders`
 12. For `Choose which deployment should run`, select `HEAD`
 13. For `Select event source`, select `Time-driven`
 14. For `Select type of time based trigger`, select `Minutes timer`

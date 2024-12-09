@@ -15,8 +15,8 @@ setup instructions to set up your own project, where you will have full control.
 
 # Scripts
 
-## read_and_archive_duplicate_emails_from_senders.gs
-[README.md](read_and_archive_duplicate_emails_from_senders/README.md)
+## read_and_delete_duplicate_emails_from_senders.gs
+[README.md](read_and_delete_duplicate_emails_from_senders/README.md)
 
 ## Contributors 
 - [Alex Doan](https://github.com/akdoan1)
