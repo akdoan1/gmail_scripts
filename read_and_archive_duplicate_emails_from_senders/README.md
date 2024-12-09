@@ -4,9 +4,7 @@ Function to mark-as-read and archive duplicate emails in the inbox from a list o
 # How it works
 Inbox emails will be processed from newest to oldest. An email found with the same sender and subject as an email already processed will be considered a duplicate, marked as read, and moved to the archive. Only the "most recent version" of an email will remain in the inbox.
 
-# Quickstart
-
-## Bootstrap
+## Project setup
 1. Open [Google Apps Scripts](https://script.google.com/)
 2. Click `New Project`
 3. copy-paste code here
